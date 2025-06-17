@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# Wallet - Expense Wallet Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and elegant expense tracking mobile application built using **React Native**.  
+Wallet helps users manage their daily expenses by tracking their income and spending, all in one convenient place.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 🔐 **Authentication**
+  - Sign Up
+  - Sign In
+  - Email Verification (via [Clerk])
 
-2. Start the app
+- 📊 **Dashboard (Home Screen)**
+  - Displays:
+    - Total Balance
+    - Total Income
+    - Total Expense
+  - List of all recent transactions
 
-   ```bash
-   npx expo start
-   ```
+- ➕ **Add Transaction Page**
+  - Add new income or expense with:
+    - Title
+    - Amount
+    - Category
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Screens / Navigation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Auth Stack**
+  - `SignupScreen.jsx`
+  - `SigninScreen.jsx`
 
-## Get a fresh project
+- **Root Stack**
+  - `Index.jsx` — Overview of wallet with summary + transaction list
+  - `Create.jsx` — Form to add new transactions
 
-When you're ready, run:
+---
 
+## 🛠️ Tech Stack
+
+- **Frontend:** React Native (Expo)
+- **Navigation:** React Navigation
+- **Backend/Auth:** [Render ]
+- **Database:** [PostgreSQL hosted on Neon]
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
-npm run reset-project
-```
+git clone [your-repo-url]
+cd wallet
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 2. Clone the repository
+```bash
+npm install
+# or
+yarn install
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Add Environment Variables
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+RENDER_API_URL=your_backend_api_url
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 4. Start the App
+npx expo start
 
-## Join the community
+🧪 Roadmap / Future Enhancements
 
-Join our community of developers creating universal apps.
+Category-wise filters
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expense charts and analytics
+
+Offline mode support
+
+Push notifications for limits
+
+🙋‍♂️ Author
+
+Name: Piyush Surana
+
+GitHub: https://github.com/piyush-surana
+
+LinkedIn: www.linkedin.com/in/piyush-surana12
