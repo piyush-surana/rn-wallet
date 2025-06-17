@@ -55,37 +55,31 @@ Wallet helps users manage their daily expenses by tracking their income and spen
 git clone [your-repo-url]
 cd wallet
 
-2. Install dependencies
+### 2. Install dependencies
 
 npm install
-# or
+or
 yarn install
 
-3. Add Environment Variables
-
-Create a .env file and add the following:
+### 3. Add Environment Variables
+Create a .env file in the root directory and include:
 
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 RENDER_API_URL=your_backend_api_url
 
-4. Start the App
+### 4. Start the App
 
 npx expo start
 
-🧪 Roadmap / Future Enhancements
+## 🧪 Roadmap / Future Enhancements
+- Category-wise filters
+- Expense charts and analytics
+- Offline mode support
+- Push notifications for limits
 
-Category-wise filters
 
-Expense charts and analytics
 
-Offline mode support
-
-Push notifications for limits
-
-🙋‍♂️ Author
-
-Name: Piyush Surana
-
-GitHub: https://github.com/piyush-surana
-
-LinkedIn: www.linkedin.com/in/piyush-surana12
+##  🙋‍♂️ Author
+- Name: [Piyush Surana]
+- GitHub: [https://github.com/piyush-surana]
+- Portfolio: [www.linkedin.com/in/piyush-surana12]
