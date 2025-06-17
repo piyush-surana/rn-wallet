@@ -48,26 +48,28 @@ Wallet helps users manage their daily expenses by tracking their income and spen
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
-### 1. Clone the repository
-```bash
+1. Clone the repository
+
 git clone [your-repo-url]
 cd wallet
 
----
+2. Install dependencies
 
-### 2. Clone the repository
-```bash
 npm install
 # or
 yarn install
 
-### 3. Add Environment Variables
+3. Add Environment Variables
+
+Create a .env file and add the following:
+
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 RENDER_API_URL=your_backend_api_url
 
-### 4. Start the App
+4. Start the App
+
 npx expo start
 
 🧪 Roadmap / Future Enhancements
